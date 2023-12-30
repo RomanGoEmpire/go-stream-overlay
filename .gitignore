@@ -1,0 +1,9 @@
+# Directories
+__pycache__
+images
+migrations
+# Files
+db.sqlite3
+Todo.md
+.env
+.DS_Store
