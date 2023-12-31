@@ -568,6 +568,7 @@ class Person(models.Model):
 
 class Organizer(models.Model):
     name = models.CharField(max_length=50)
+    image = models.ImageField(upload_to="images/", blank=True, null=True)
 
     def __str__(self):
         return self.name
@@ -578,6 +579,7 @@ class Organizer(models.Model):
 
 class Sponsor(models.Model):
     name = models.CharField(max_length=50)
+    image = models.ImageField(upload_to="images/", blank=True, null=True)
 
     def __str__(self):
         return self.name
